@@ -57,6 +57,7 @@ p {
     margin: 0;
 }
 
+/* Definições da página de abertura index.html */
 .secao {
     float: left;
     width: 20%;
@@ -72,4 +73,49 @@ p {
     width: 80%;
     height: 65%;
     object-fit: fill;
+}
+
+/* Definições da página de registro de acidente */
+.figura_base {
+    float: left;
+    width: 20%;
+    padding: 10px 0px 0px 15px;
+    border-color: white;
+}
+
+.area_dados {
+    float: left;
+    width: 60%;
+    padding: 10px 0px 0px 15px;
+    border-color: white;
+}
+
+.destaque_dados {
+    float: left;
+    width: 100%;
+}
+
+.data_hora_dados {
+    float: left;
+    width: 40%;
+    padding-top: 15px;
+}
+
+.local_acid {
+    float: left;
+    width: 30%;
+    padding-top: 15px;
+}
+
+.motivo_acid {
+    float: left;
+    width: 60%;
+    padding-top: 15px;
+}
+
+.botao_salvar {
+    float: left;
+    width: 80%;
+    padding-top: 15px;
+    align-items: center;
 }
